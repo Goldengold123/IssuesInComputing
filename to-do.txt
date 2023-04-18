@@ -1,0 +1,14 @@
+WEBPAGES
+- describe problem
+- potential solutions
+- sources
+
+- careers
+- survey?
+
+
+COLORUS
+- #5DA9E9
+- #E5F4E3
+- #003F91
+- #645244
