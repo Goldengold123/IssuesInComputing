@@ -6,22 +6,71 @@
 
 html {
     background-color: #E5F4E3;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 body {
     margin: 0;
     width: 100%;
-    padding: 0 20px 20px 20px;
+    padding: 20px;
 }
 
 h1 {
     margin-top: 100px;
     padding: 20px 0;
     font-size: 60px;
+    font-weight: bold;
     text-align: center;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+sup {
+    font-size:8px;
 }
 
 img {
     display: block;
     margin: 0 auto;
 }
+
+a {
+    text-decoration: none;
+    color: #5DA9E9;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #003F91;
+}
+
+.defn {
+    margin: auto;
+    width: fit-content;
+    background-color: #8080805b;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.defn type {
+    font-style: italic;
+    font-size: 14px;
+}
+
+.edu {
+    width:fit-content;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.edu
+
+.salary {
+    margin: 0;
+    width: fit-content;
+}
+

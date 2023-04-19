@@ -6,9 +6,23 @@ WEBPAGES
 - careers
 - survey?
 
+- images?
+
+- light/dark mode toggle
+
 
 COLORUS
 - #5DA9E9
 - #E5F4E3
 - #003F91
 - #645244
+
+LINKS
+- https://www.coursera.org/articles/computer-science-vs-information-technology
+- https://www.coursera.org/articles/computer-science-vs-computer-engineering
+- https://www.w3schools.com/tags/default.asp
+- https://daringfireball.net/projects/markdown/syntax
+- https://core.myblueprint.ca/V5/Work/Occupation
+- https://www.collinsdictionary.com/dictionary/english/computing
+- https://www.w3schools.com/howto/howto_google_charts.asp
+- https://codepen.io/Muthukrishnan/pen/vGoZVz
