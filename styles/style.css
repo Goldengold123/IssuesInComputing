@@ -1,5 +1,5 @@
 * {
-  font-size: 16px;
+  font-size: 1.3vw;
   font-family: "Open Sans", sans-serif;
   color: #645244;
 }
@@ -12,31 +12,42 @@ html {
 
 body {
   margin: 0;
-  width: 100%;
-  padding: 20px;
+  width: 100vw;
+  padding: 1.5vw;
 }
 
 h1 {
-  margin-top: 100px;
-  padding: 20px 0;
-  font-size: 60px;
+  font-size: 4.5vw;
   font-weight: bold;
   text-align: center;
 }
 
 h2 {
-  font-size: 30px;
-  padding-top: 75px;
+  font-size: 2.5vw;
+  padding-top: 2vw;
   font-weight: bold;
 }
 
-img {
+.header img {
   display: block;
-  margin: 0 auto;
+  overflow: hidden;
+  object-fit: cover;
+  width:100vw;
+  height: 30vw;
+  margin: -1.5vw;
+  filter: brightness(50%);
+}
+
+.header-text {
+  font: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 sup {
-  font-size: 8px;
+  font-size: 0.8vw;
 }
 
 a {
@@ -53,47 +64,54 @@ a:hover {
   margin: auto;
   width: fit-content;
   background-color: #8080805b;
-  padding: 20px;
-  border-radius: 20px;
+  padding: 1.5vw;
+  border-radius: 1.5vw;
 }
 
 .defn term {
   display: block;
-  font-size: 16px;
+  font-size: 1.3vw;
   font-weight: bold;
 }
 
 .defn type {
   display: block;
   font-style: italic;
-  font-size: 14px;
+  font-size: 1.1vw;
 }
 
 .defn def {
-  padding-top: 10px;
+  padding-top: 1vw;
 }
 
-.collapse {
+.collapse, .active {
   cursor: pointer;
   background-color: #8080805b;
-  padding: 10px;
-  width: 95%;
+  padding: 0.75vw;
+  width: 97vw;
   border: none;
   text-align: left;
   outline: none;
 }
 
 .collapse i {
-  font-size: 14px;
+  font-size: 1.1vw;
 }
 
-.active,
-.collapse:hover {
-  background-color: #80808096;
+.active.hover, .collapse:hover {
+  background-color: #5daae99e;
 }
 
 .collapse-content {
+  background-color: #8080801e;
+  padding: 1vw;
+  width: 95.5vw;
+  border: none;
+  text-align: left;
+  outline: none;
   display: none;
-  padding: 10px;
-  background-color: #8080805b;
+}
+
+.collapse-content p, li {
+  margin: 0.5vw;
 }

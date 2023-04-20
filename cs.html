@@ -5,15 +5,18 @@
     <meta name="viewport" content="width=device-width" />
     <title>Issues in Computing</title>
     <script src="scripts/navbar.js"></script>
-    <link href="styles/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans" rel="stylesheet" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
   </head>
 
   <body>
     <div include-html="navbar.html"></div>
-
-    <h1>Computer Science</h1>
+    <div class="header">
+      
+      <img src="images/cs.jpg"></img>
+      <div class="header-text"><h1>Computer Science</h1></div>
+    </div>
     <p>Lately, this term has been thrown around a lot, often when a different term should be used.</p>
     <div class="defn">
       <term>com·put·er sci·ence</term>
@@ -27,12 +30,40 @@
         <i class="material-icons">school</i>
         <type>University</type>
       </button>
+      <div class="collapse-content">
+        <p>
+          Nearly all jobs within the computer sceince field require at least a 4-year (university) bachelor's degree in computer. You can obtain this
+          at most Canadian universities. They have an application process that involves some combination of your high school marks and
+          extra-curriculars (i.e. competitions, volunteering, jobs). Here are some links for more information:
+        </p>
+        <li>
+          <a href="https://www.torontomu.ca/programs/undergraduate/computer-science/">Toronto Metropolitan University</a>
+        </li>
+        <li>
+          <a href="https://futurestudents.yorku.ca/program/computer-science">York University</a>
+        </li>
+        <li>
+          <a href="https://www.cs.ubc.ca/students/undergrad/prospective">University of British Columbia</a>
+        </li>
+        <li>
+          <a href="https://future.utoronto.ca/undergraduate-programs/computer-science/">University of Toronto</a>
+        </li>
+        <li>
+          <a href="https://uwaterloo.ca/future-students/programs/computer-science">University of Waterloo</a>
+        </li>
+      </div>
+    </div>
+    <div title="[programing experience]">
+      <button type="button" class="collapse">
+        <i class="material-icons">laptop_windows</i>
+        <type>Experience</type>
+      </button>
       <div class="collapse-content">afsdadsfadfs</div>
     </div>
 
+    <script src="scripts/collapse.js"></script>
     <script>
       includeHTML();
     </script>
-    <script src="scripts/collapse.js"></script>
   </body>
 </html>

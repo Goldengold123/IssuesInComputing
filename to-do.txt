@@ -28,8 +28,3 @@ LINKS
 - https://codepen.io/Muthukrishnan/pen/vGoZVz
 - https://www.jobbank.gc.ca/marketreport/requirements/22524/ca
 - https://www.jobbank.gc.ca/marketreport/requirements/5485/ca
-- https://uwaterloo.ca/future-students/programs/computer-science
-- https://ontariotechu.ca/programs/undergraduate/computers-and-technology/computer-science/index.php
-- https://www.torontomu.ca/programs/undergraduate/computer-science/
-- https://futurestudents.yorku.ca/program/computer-science
-- https://future.utoronto.ca/undergraduate-programs/computer-science/
