@@ -1,76 +1,99 @@
 * {
-    font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
-    color: #645244;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  color: #645244;
 }
 
 html {
-    background-color: #E5F4E3;
-    overflow-x: hidden;
-    overflow-y: scroll;
+  background-color: #e5f4e3;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 body {
-    margin: 0;
-    width: 100%;
-    padding: 20px;
+  margin: 0;
+  width: 100%;
+  padding: 20px;
 }
 
 h1 {
-    margin-top: 100px;
-    padding: 20px 0;
-    font-size: 60px;
-    font-weight: bold;
-    text-align: center;
+  margin-top: 100px;
+  padding: 20px 0;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
 }
 
 h2 {
-    font-size: 16px;
-    font-weight: bold;
-}
-
-sup {
-    font-size:8px;
+  font-size: 30px;
+  padding-top: 75px;
+  font-weight: bold;
 }
 
 img {
-    display: block;
-    margin: 0 auto;
+  display: block;
+  margin: 0 auto;
+}
+
+sup {
+  font-size: 8px;
 }
 
 a {
-    text-decoration: none;
-    color: #5DA9E9;
+  text-decoration: none;
+  color: #5da9e9;
 }
 
 a:hover {
-    text-decoration: none;
-    color: #003F91;
+  text-decoration: none;
+  color: #003f91;
 }
 
 .defn {
-    margin: auto;
-    width: fit-content;
-    background-color: #8080805b;
-    padding: 10px;
-    border-radius: 20px;
+  margin: auto;
+  width: fit-content;
+  background-color: #8080805b;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.defn term {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .defn type {
-    font-style: italic;
-    font-size: 14px;
+  display: block;
+  font-style: italic;
+  font-size: 14px;
 }
 
-.edu {
-    width:fit-content;
-    padding: 10px;
-    border-radius: 20px;
+.defn def {
+  padding-top: 10px;
 }
 
-.edu
-
-.salary {
-    margin: 0;
-    width: fit-content;
+.collapse {
+  cursor: pointer;
+  background-color: #8080805b;
+  padding: 10px;
+  width: 95%;
+  border: none;
+  text-align: left;
+  outline: none;
 }
 
+.collapse i {
+  font-size: 14px;
+}
+
+.active,
+.collapse:hover {
+  background-color: #80808096;
+}
+
+.collapse-content {
+  display: none;
+  padding: 10px;
+  background-color: #8080805b;
+}

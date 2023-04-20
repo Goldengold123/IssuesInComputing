@@ -1,49 +1,36 @@
 <!DOCTYPE html>
 <html lang="eng-US">
-
-<head>
+  <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>Issues in Computing</title>
+    <script src="scripts/navbar.js"></script>
     <link href="styles/navbar.css" rel="stylesheet" />
     <link href="styles/style.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans" rel="stylesheet">
-    <script src=""></script>
-</head>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans" rel="stylesheet" />
+  </head>
 
-<body>
-
-    <nav class="nav">
-        <div class="left">
-            <a href="">Careers in Computing</a>
-        </div>
-        <div class="right">
-            <a href="info.html">General Information</a>
-            <a>Test</a>
-            <div class="dropdown">
-                <a>Potential Careers</a>
-                <div class="dropdown-content">
-                    <a href="cs.html">Computer Science</a>
-                    <a href="ce.html">Computer Engineering</a>
-                    <a href="it.html">Information Technology</a>
-                </div>
-            </div>
-            <a href="/citations">Works Cited</a>
-        </div>
-    </nav>
+  <body>
+    <div include-html="navbar.html"></div>
 
     <h1>General Information</h1>
 
     <p>According to Google (definition provided by Oxford Languages):</p>
     <div class="defn">
-        <h2>com·put·ing</h2>
-        <type>noun</type>
-        <p>the use or operation of computers.</p>
+      <term>com·put·ing</term>
+      <type>noun</type>
+      <def>the use or operation of computers.</def>
     </div>
-    
+
     <p>This means that careers in computing refers to jobs that involve using computers.<sup title="duh">[1]</sup></p>
     <p>But this doesn't imply that everything related to computers is a career in computing. Clearly [insert job] isn't.</p>
-    <p>There are three major fields: <a href=cs.html>computer science</a>, <a href=ce.html>computer engineering</a>, and <a href="it.html">information technology</a>.</p>
-</body>
+    <p>
+      As for what a career in computing actually is, there are three major fields:
+      <a href="cs.html">computer science</a>, <a href="ce.html">computer engineering</a>, and <a href="it.html">information technology</a>.
+    </p>
 
+    <script>
+      includeHTML();
+    </script>
+  </body>
 </html>

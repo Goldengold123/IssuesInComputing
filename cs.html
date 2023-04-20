@@ -1,47 +1,38 @@
 <!DOCTYPE html>
 <html lang="eng-US">
-
-<head>
+  <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>Issues in Computing</title>
-    <link href="styles/navbar.css" rel="stylesheet" />
+    <script src="scripts/navbar.js"></script>
     <link href="styles/style.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans" rel="stylesheet">
-    <script src=""></script>
-</head>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  </head>
 
-<body>
-
-    <nav class="nav">
-        <div class="left">
-            <a href="">Careers in Computing</a>
-        </div>
-        <div class="right">
-            <a href="info.html">General Information</a>
-            <a>Test</a>
-            <div class="dropdown">
-                <a>Potential Careers</a>
-                <div class="dropdown-content">
-                    <a href="cs.html">Computer Science</a>
-                    <a href="ce.html">Computer Engineering</a>
-                    <a href="it.html">Information Technology</a>
-                </div>
-            </div>
-            <a href="/citations">Works Cited</a>
-        </div>
-    </nav>
+  <body>
+    <div include-html="navbar.html"></div>
 
     <h1>Computer Science</h1>
     <p>Lately, this term has been thrown around a lot, often when a different term should be used.</p>
     <div class="defn">
-        <h2>com·put·er sci·ence</h2>
-        <type>noun</type>
-        <p>a branch of science that deals with the theory of computation or the design of computers.</p>
+      <term>com·put·er sci·ence</term>
+      <type>noun</type>
+      <def>a branch of science that deals with the theory of computation or the design of computers.</def>
     </div>
     <p>Basically, designing and creating computer algorithms to be more efficient.</p>
-    <hr>
-    <div class="edu"></div>
-    </body>
+    <h2>Requirements</h2>
+    <div title="4+ year Bachelor's degree in Computer Science (or similar majors)">
+      <button type="button" class="collapse">
+        <i class="material-icons">school</i>
+        <type>University</type>
+      </button>
+      <div class="collapse-content">afsdadsfadfs</div>
+    </div>
 
+    <script>
+      includeHTML();
+    </script>
+    <script src="scripts/collapse.js"></script>
+  </body>
 </html>
