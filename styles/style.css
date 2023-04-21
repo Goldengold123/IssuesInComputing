@@ -1,53 +1,62 @@
 * {
-  font-size: 1.3vw;
+  font-size: 16px;
   font-family: "Open Sans", sans-serif;
   color: #645244;
 }
 
 html {
   background-color: #e5f4e3;
+  padding: 0;
+  margin: 0;
+  border: 0;
   overflow-x: hidden;
   overflow-y: auto;
 }
 
-body {
-  margin: 0;
-  width: 100vw;
-  padding: 1.5vw;
+#header {
+  padding: 0;
+  display: block;
+  background-size: cover;
+  position: static;
+  width: 100%;
+  height: 300px;
+  filter: brightness(50%);
+}
+
+.header-text {
+  background-color: white;
+  color: black;
+  position: absolute;
+  padding: 10px;
+  width: 50%;
+  font-size: 100px;
+  font-weight: bold;
+  margin: 0 auto;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: screen;
+}
+
+#content {
+  padding: 0;
 }
 
 h1 {
-  font-size: 4.5vw;
+  font-size: 60px;
   font-weight: bold;
   text-align: center;
 }
 
 h2 {
-  font-size: 2.5vw;
-  padding-top: 2vw;
+  font-size: 30px;
+  padding-top: 30px;
   font-weight: bold;
 }
 
-.header img {
-  display: block;
-  overflow: hidden;
-  object-fit: cover;
-  width:100vw;
-  height: 30vw;
-  margin: -1.5vw;
-  filter: brightness(50%);
-}
-
-.header-text {
-  font: #ffffff;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 sup {
-  font-size: 0.8vw;
+  font-size: 8px;
 }
 
 a {
@@ -64,54 +73,54 @@ a:hover {
   margin: auto;
   width: fit-content;
   background-color: #8080805b;
-  padding: 1.5vw;
-  border-radius: 1.5vw;
+  padding: 16px;
+  border-radius: 20px;
 }
 
 .defn term {
   display: block;
-  font-size: 1.3vw;
+  font-size: 16px;
   font-weight: bold;
 }
 
 .defn type {
   display: block;
   font-style: italic;
-  font-size: 1.1vw;
+  font-size: 14px;
 }
 
 .defn def {
-  padding-top: 1vw;
+  padding-top: 10px;
 }
 
-.collapse, .active {
+.collapse,
+.active {
   cursor: pointer;
   background-color: #8080805b;
-  padding: 0.75vw;
-  width: 97vw;
+  padding: 10px;
+  width: 100%;
   border: none;
   text-align: left;
   outline: none;
 }
 
 .collapse i {
-  font-size: 1.1vw;
+  font-size: 14px;
 }
 
-.active.hover, .collapse:hover {
+.active.hover,
+.collapse:hover {
   background-color: #5daae99e;
 }
 
 .collapse-content {
-  background-color: #8080801e;
-  padding: 1vw;
-  width: 95.5vw;
-  border: none;
+  padding: 10px;
   text-align: left;
   outline: none;
   display: none;
 }
 
-.collapse-content p, li {
-  margin: 0.5vw;
+.collapse-content p,
+li {
+  margin: 5px;
 }
