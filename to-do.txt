@@ -28,3 +28,7 @@ LINKS
 - https://codepen.io/Muthukrishnan/pen/vGoZVz
 - https://www.jobbank.gc.ca/marketreport/requirements/22524/ca
 - https://www.jobbank.gc.ca/marketreport/requirements/5485/ca
+
+
+IMAGES
+- https://news.mit.edu/2022/neil-thompson-computing-power-innovation-0624

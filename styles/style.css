@@ -6,47 +6,45 @@
 
 html {
   background-color: #e5f4e3;
-  padding: 0;
-  margin: 0;
-  border: 0;
   overflow-x: hidden;
   overflow-y: auto;
 }
 
-#header {
+body {
+  margin: 0;
   padding: 0;
-  display: block;
+  z-index: 5;
+}
+
+.header-image {
+  position: relative;
   background-size: cover;
-  position: static;
-  width: 100%;
   height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   filter: brightness(50%);
 }
 
 .header-text {
-  background-color: white;
-  color: black;
+  text-align: center;
   position: absolute;
   padding: 10px;
-  width: 50%;
-  font-size: 100px;
-  font-weight: bold;
   margin: 0 auto;
-  text-align: center;
-  top: 50%;
+  width: 60%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   mix-blend-mode: screen;
-}
-
-#content {
-  padding: 0;
-}
-
-h1 {
-  font-size: 60px;
+  background-color: #e5f4e3;
+  color: #000000;
+  font-size: 6vw;
   font-weight: bold;
-  text-align: center;
+}
+
+.content {
+  margin: 10px;
+  padding: 10px;
 }
 
 h2 {
@@ -89,10 +87,6 @@ a:hover {
   font-size: 14px;
 }
 
-.defn def {
-  padding-top: 10px;
-}
-
 .collapse,
 .active {
   cursor: pointer;
@@ -110,7 +104,7 @@ a:hover {
 
 .active.hover,
 .collapse:hover {
-  background-color: #5daae99e;
+  background-color: #5daae9;
 }
 
 .collapse-content {
