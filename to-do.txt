@@ -1,14 +1,9 @@
-WEBPAGES
-- describe problem
-- potential solutions
-- sources
+- documentation
+- better images
+- works cited properly
 
-- careers
-- survey?
 
-- images?
-
-- light/dark mode toggle
+- light/dark mode toggle?
 
 
 COLORUS
@@ -31,4 +26,9 @@ LINKS
 
 
 IMAGES
-- https://news.mit.edu/2022/neil-thompson-computing-power-innovation-0624
+- https://unsplash.com/photos/NIJuEQw0RKg
+- uni logos
+- https://unsplash.com/photos/cYyqhdbJ9TI
+- https://unsplash.com/photos/pfR18JNEMv8
+- https://unsplash.com/photos/pgdaAwf6IJg
+- https://www.flaticon.com/free-icon/robotic-hand_9626716
