@@ -18,7 +18,6 @@
       </div>
     </div>
     <div class="content">
-      <iframe width="420" height="315" src="https://www.youtube.com/embed/Tzl0ELY_TiM"> </iframe>
       <p>Lately, this term has been thrown around a lot, often when a different term should be used.</p>
       <div class="defn">
         <term>com·put·er sci·ence</term>
@@ -26,36 +25,51 @@
         <span>a branch of science that deals with the theory of computation or the design of computers.</span>
       </div>
       <p>Basically, designing and creating computer algorithms to be more efficient.</p>
+      <p>
+        To do this, some of the skills you might learn include programming, game development, webpage development, data analysis, and algorithms. In
+        addition, some more complicated areas of study are artificial intelligence, cybersecurity, and networks.
+      </p>
+      <iframe width="420" height="315" src="https://www.youtube.com/embed/Tzl0ELY_TiM"> </iframe>
 
       <h2>Requirements</h2>
       <div title="4+ year Bachelor's degree in Computer Science (or similar majors)">
         <button type="button" class="collapse">
           <i class="material-icons">school</i>
-          <type>University</type>
+          <type>Education</type>
         </button>
         <div class="collapse-content">
           <p>
-            Nearly all jobs within the computer sceince field require at least a 4-year (university) bachelor's degree in computer. You can obtain
-            this at most Canadian universities. They have an application process that involves some combination of your high school marks and
+            Nearly all jobs within the computer sceince field require at least a 4-year university bachelor's degree in computer. You can obtain this
+            at most Canadian universities. They have an application process that involves some combination of your high school marks and
             extra-curriculars (i.e. competitions, volunteering, jobs). Here are some links for more information:
           </p>
-          <ul>
-            <li>
-              <a href="https://www.torontomu.ca/programs/undergraduate/computer-science/">Toronto Metropolitan University</a>
-            </li>
-            <li>
-              <a href="https://futurestudents.yorku.ca/program/computer-science">York University</a>
-            </li>
-            <li>
-              <a href="https://www.cs.ubc.ca/students/undergrad/prospective">University of British Columbia</a>
-            </li>
-            <li>
-              <a href="https://future.utoronto.ca/undergraduate-programs/computer-science/">University of Toronto</a>
-            </li>
-            <li>
-              <a href="https://uwaterloo.ca/future-students/programs/computer-science">University of Waterloo</a>
-            </li>
-          </ul>
+          <div class="flex">
+            <div>
+              <ul>
+                <li>
+                  <a href="https://www.torontomu.ca/programs/undergraduate/computer-science/">Toronto Metropolitan University</a>
+                </li>
+                <li>
+                  <a href="https://futurestudents.yorku.ca/program/computer-science">York University</a>
+                </li>
+                <li>
+                  <a href="https://www.cs.ubc.ca/students/undergrad/prospective">University of British Columbia</a>
+                </li>
+                <li>
+                  <a href="https://future.utoronto.ca/undergraduate-programs/computer-science/">University of Toronto</a>
+                </li>
+                <li>
+                  <a href="https://uwaterloo.ca/future-students/programs/computer-science">University of Waterloo</a>
+                </li>
+              </ul>
+            </div>
+            <div><img src="images/tmu.png" alt="Toronto Metropolitan University Logo" style="height: 125px" /></div>
+            <div><img src="images/york.png" alt="York University Logo" style="height: 125px" /></div>
+            <div><img src="images/ubc.png" alt="University of British Columbia Logo" style="height: 125px" /></div>
+            <div><img src="images/uoft.png" alt="University of Toronto Logo" style="height: 125px" /></div>
+            <div><img src="images/uwaterloo.png" alt="University of Waterloo Logo" style="height: 125px" /></div>
+          </div>
+          <p>This is where you will learn the skills you need stated above.</p>
         </div>
       </div>
       <div title="Programming experience">
@@ -100,11 +114,58 @@
         </div>
       </div>
 
-      <h2>Outlook / Salaray</h2>
+      <h2>Potential Job Titles & Outlook / Salary</h2>
 
+      <div class="flex">
+        <div>
+          <table>
+            <tr>
+              <th>Job Title</th>
+              <th>Salary</th>
+            </tr>
+            <tr>
+              <td>Web Developer</td>
+              <td>$82,690</td>
+            </tr>
+            <tr>
+              <td>Robotics Engineer</td>
+              <td>$101,108</td>
+            </tr>
+            <tr>
+              <td>Full Stack Developer</td>
+              <td>$87,080</td>
+            </tr>
+            <tr>
+              <td>Software Engineer</td>
+              <td>$105,772</td>
+            </tr>
+            <tr>
+              <td>Artificial Intelligence Engineer</td>
+              <td>$125,124</td>
+            </tr>
+            <tr>
+              <td>Back-End Engineer</td>
+              <td>$126,948</td>
+            </tr>
+            <tr>
+              <td>Data Scientist</td>
+              <td>$124,223</td>
+            </tr>
+          </table>
+        </div>
+        <div>
+          <div id="colchart" style="width: 1000px; height: 400px"></div>
+        </div>
+      </div>
+      <p>Salary is average USD base pay in US, data from Glassdoor, accessed on Coursera.</p>
       <script src="scripts/collapse.js"></script>
       <script>
         includeHTML();
+      </script>
+      <script src="https://www.gstatic.com/charts/loader.js"></script>
+      <script src="scripts/loadColChart.js"></script>
+      <script>
+        drawChart();
       </script>
     </div>
   </body>
