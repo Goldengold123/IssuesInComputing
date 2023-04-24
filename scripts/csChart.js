@@ -1,7 +1,7 @@
 google.charts.load("current", { packages: ["corechart"] });
 google.charts.setOnLoadCallback(drawChart);
 
-function drawChart() {
+function csChart() {
   var data = google.visualization.arrayToDataTable([
     ["Job Title", "Salary", { role: "style" }],
     ["Web Developer", 82690, "#5DA9E9"],

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>Test</title>
+    <title>Survey</title>
     <link rel="icon" type="images/" href="/images/favicon.ico" />
     <script src="scripts/navbar.js"></script>
     <link rel="stylesheet" href="styles/style.css" />
@@ -15,7 +15,7 @@
     <div include-html="navbar.html"></div>
     <div class="header">
       <div class="header-image" style="background-image: url('images/ce.jpg')">
-        <div class="header-text">Test</div>
+        <div class="header-text">Survey</div>
       </div>
     </div>
     <div class="content">
@@ -59,9 +59,9 @@
         <label for="no">No</label>
         <p>Would you prefer learning about more theory or applications of your skills?</p>
         <input type="radio" id="theory" name="q8" value="cs" />
-        <label for="theory">Yes</label><br />
+        <label for="theory">Theory</label><br />
         <input type="radio" id="application" name="q8" value="ceit" />
-        <label for="application">No</label>
+        <label for="application">Application</label>
         <p>Would you rather work with software or hardware?</p>
         <input type="radio" id="software" name="q9" value="cs" />
         <label for="software">Pure software</label><br />
@@ -72,10 +72,13 @@
       </form>
       <br />
       <button onclick="submit()">View results!</button>
+      <h2 id="csresult"></h2>
+      <h2 id="ceresult"></h2>
+      <h2 id="itresult"></h2>
     </div>
     <script>
       includeHTML();
     </script>
-    <script src="scripts/test.js"></script>
+    <script src="scripts/survey.js"></script>
   </body>
 </html>

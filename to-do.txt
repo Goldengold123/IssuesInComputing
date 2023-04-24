@@ -5,7 +5,7 @@
 - education: ce/it
 - experience: ce/it
 - job title + outlook / salary: ce
-
+- survey image
 
 - light/dark mode toggle?
 
