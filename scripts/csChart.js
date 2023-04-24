@@ -21,6 +21,6 @@ function csChart() {
     legend: { position: "none" },
   };
 
-  var chart = new google.visualization.ColumnChart(document.getElementById("colchart"));
+  var chart = new google.visualization.ColumnChart(document.getElementById("cschart"));
   chart.draw(data, options);
 }

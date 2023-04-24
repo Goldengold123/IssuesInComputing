@@ -9,8 +9,6 @@ includeHTML = function () {
       xhttp.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
           element.innerHTML = this.responseText;
-          element.removeAttribute("include-html");
-          includeHTML();
         }
       };
       xhttp.open("GET", file, true);
