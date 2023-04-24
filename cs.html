@@ -5,16 +5,29 @@
     <meta name="viewport" content="width=device-width" />
     <title>Computer Science</title>
     <link rel="icon" type="images/" href="/images/favicon.ico" />
-    <script src="scripts/navbar.js"></script>
-    <script src="https://www.gstatic.com/charts/loader.js"></script>
-    <script src="scripts/csChart.js"></script>
+    <link rel="stylesheet" href="styles/navbar.css" />
     <link rel="stylesheet" href="styles/style.css" />
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans" rel="stylesheet" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
   </head>
 
   <body>
-    <div include-html="navbar.html"></div>
+    <nav class="nav">
+      <a href="/index.html">Careers in Computing</a>
+      <div class="right">
+        <div class="dropdown">
+          <button>Potential Careers</button>
+          <div class="dropdown-content">
+            <a href="cs.html">Computer Science</a>
+            <a href="ce.html">Computer Engineering</a>
+            <a href="it.html">Information Technology</a>
+          </div>
+        </div>
+        <a href="survey.html">Survey</a>
+        <a href="citations.html">Works Cited</a>
+      </div>
+    </nav>
     <div class="header">
       <div class="header-image" style="background-image: url('images/cs.jpg')">
         <div class="header-text">Computer Science</div>
@@ -166,10 +179,32 @@
     </div>
     <script src="scripts/collapse.js"></script>
     <script>
-      includeHTML();
-    </script>
-    <script>
-      csChart();
+      google.charts.load("current", { packages: ["corechart"] });
+      google.charts.setOnLoadCallback(csChart);
+
+      function csChart() {
+        var data = google.visualization.arrayToDataTable([
+          ["Job Title", "Salary", { role: "style" }],
+          ["Web Developer", 82690, "#5DA9E9"],
+          ["Robotics Engineer", 101108, "#5DA9E9"],
+          ["Full Stack Developer", 87080, "#5DA9E9"],
+          ["Software Engineer", 105772, "#5DA9E9"],
+          ["Artificial Intelligence Engineer", 125124, "#5DA9E9"],
+          ["Back-End Engineer", 126948, "#5DA9E9"],
+          ["Data Scientist", 124223, "#5DA9E9"],
+        ]);
+
+        var options = {
+          backgroundColor: "#E5F4E3",
+          title: "Salaries of Computer Science Careers",
+          hAxis: { textStyle: { fontSize: "1px" } },
+          chartArea: { width: "80%", height: "75%" },
+          legend: { position: "none" },
+        };
+
+        var chart = new google.visualization.ColumnChart(document.getElementById("cschart"));
+        chart.draw(data, options);
+      }
     </script>
   </body>
 </html>

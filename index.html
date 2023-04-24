@@ -5,14 +5,27 @@
     <meta name="viewport" content="width=device-width" />
     <title>Careers in Computing</title>
     <link rel="icon" type="images/" href="/images/favicon.ico" />
-    <script src="scripts/navbar.js"></script>
-    <link href="styles/navbar.css" rel="stylesheet" />
-    <link href="styles/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/navbar.css" />
+    <link rel="stylesheet" href="styles/style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans" rel="stylesheet" />
   </head>
 
   <body>
-    <div include-html="navbar.html"></div>
+    <nav class="nav">
+      <a href="/index.html">Careers in Computing</a>
+      <div class="right">
+        <div class="dropdown">
+          <button>Potential Careers</button>
+          <div class="dropdown-content">
+            <a href="cs.html">Computer Science</a>
+            <a href="ce.html">Computer Engineering</a>
+            <a href="it.html">Information Technology</a>
+          </div>
+        </div>
+        <a href="survey.html">Survey</a>
+        <a href="citations.html">Works Cited</a>
+      </div>
+    </nav>
     <div class="header">
       <div class="header-image" style="background-image: url('images/general.jpg')">
         <div class="header-text">General Information</div>
@@ -35,8 +48,5 @@
         <a href="cs.html">computer science</a>, <a href="ce.html">computer engineering</a>, and <a href="it.html">information technology</a>.
       </p>
     </div>
-    <script>
-      includeHTML();
-    </script>
   </body>
 </html>

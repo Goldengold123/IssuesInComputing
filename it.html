@@ -5,14 +5,28 @@
     <meta name="viewport" content="width=device-width" />
     <title>Information Technology</title>
     <link rel="icon" type="images/" href="/images/favicon.ico" />
-    <script src="scripts/navbar.js"></script>
+    <link rel="stylesheet" href="styles/navbar.css" />
     <link rel="stylesheet" href="styles/style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans" rel="stylesheet" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
   </head>
 
   <body>
-    <div include-html="navbar.html"></div>
+    <nav class="nav">
+      <a href="/index.html">Careers in Computing</a>
+      <div class="right">
+        <div class="dropdown">
+          <button>Potential Careers</button>
+          <div class="dropdown-content">
+            <a href="cs.html">Computer Science</a>
+            <a href="ce.html">Computer Engineering</a>
+            <a href="it.html">Information Technology</a>
+          </div>
+        </div>
+        <a href="survey.html">Survey</a>
+        <a href="citations.html">Works Cited</a>
+      </div>
+    </nav>
     <div class="header">
       <div class="header-image" style="background-image: url('images/it.jpg')">
         <div class="header-text">Information Technology</div>
@@ -165,13 +179,5 @@
       <p>Salary is average USD base pay in US, data from Glassdoor, accessed on Coursera.</p>
     </div>
     <script src="scripts/collapse.js"></script>
-    <script>
-      includeHTML();
-    </script>
-    <script src="https://www.gstatic.com/charts/loader.js"></script>
-    <script src="scripts/itChart.js"></script>
-    <script>
-      itChart();
-    </script>
   </body>
 </html>
