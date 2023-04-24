@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="eng-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Test</title>
+    <link rel="icon" type="images/" href="/images/favicon.ico" />
+    <script src="scripts/navbar.js"></script>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  </head>
+
+  <body>
+    <div include-html="navbar.html"></div>
+    <div class="header">
+      <div class="header-image" style="background-image: url('images/ce.jpg')">
+        <div class="header-text">Test</div>
+      </div>
+    </div>
+    <div class="content">
+      <form>
+        <p>Would you like to pursue a 4-year university bachelor's degree?</p>
+        <input type="radio" id="yes" name="q1" value="csce" />
+        <label for="yes">Yes</label><br />
+        <input type="radio" id="no" name="q1" value="it" />
+        <label for="no">No</label>
+        <p>Which of the following would you prefer to study on an advanced level?</p>
+        <input type="radio" id="mathematics" name="q2" value="cs" />
+        <label for="mathematics">Mathematics</label><br />
+        <input type="radio" id="physicschem" name="q2" value="ce" />
+        <label for="physicschem">Physics and/or Chemistry</label><br />
+        <input type="radio" id="none" name="q2" value="it" />
+        <label for="none">None of the above</label>
+        <p>Do you want to learn about the concepts (i.e. data structures, algorithms) behind the efficiency of computers and its programs?</p>
+        <input type="radio" id="yes" name="q3" value="cs" />
+        <label for="yes">Yes</label><br />
+        <input type="radio" id="no" name="q3" value="ceit" />
+        <label for="no">No</label>
+        <p>Do you want to have a career involved with the development of Artificial Intelligence?</p>
+        <input type="radio" id="yes" name="q4" value="cs" />
+        <label for="yes">Yes</label><br />
+        <input type="radio" id="no" name="q4" value="ceit" />
+        <label for="no">No</label>
+        <p>Are you interested in aspects of electrical engineering?</p>
+        <input type="radio" id="yes" name="q5" value="ce" />
+        <label for="yes">Yes</label><br />
+        <input type="radio" id="no" name="q5" value="csit" />
+        <label for="no">No</label>
+        <p>Are you intersted in learning how systems work and the networking behind it?</p>
+        <input type="radio" id="yes" name="q6" value="it" />
+        <label for="yes">Yes</label><br />
+        <input type="radio" id="no" name="q6" value="csce" />
+        <label for="no">No</label>
+        <p>Are you intersted in learning about cybersecurity?</p>
+        <input type="radio" id="yes" name="q7" value="csit" />
+        <label for="yes">Yes</label><br />
+        <input type="radio" id="no" name="q7" value="ce" />
+        <label for="no">No</label>
+        <p>Would you prefer learning about more theory or applications of your skills?</p>
+        <input type="radio" id="theory" name="q8" value="cs" />
+        <label for="theory">Yes</label><br />
+        <input type="radio" id="application" name="q8" value="ceit" />
+        <label for="application">No</label>
+        <p>Would you rather work with software or hardware?</p>
+        <input type="radio" id="software" name="q9" value="cs" />
+        <label for="software">Pure software</label><br />
+        <input type="radio" id="softwarehardware" name="q9" value="it" />
+        <label for="softwarehardware">Mostly software with a bit of hardware</label><br />
+        <input type="radio" id="both" name="q9" value="ce" />
+        <label for="both">Mixture of software and hardware</label>
+      </form>
+      <br />
+      <button onclick="submit()">View results!</button>
+    </div>
+    <script>
+      includeHTML();
+    </script>
+    <script src="scripts/test.js"></script>
+  </body>
+</html>

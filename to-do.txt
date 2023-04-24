@@ -1,6 +1,10 @@
 - documentation
-- better images
 - works cited properly
+
+- intro: it
+- education: ce/it
+- experience: ce/it
+- job title + outlook / salary: ce
 
 
 - light/dark mode toggle?
@@ -11,24 +15,3 @@ COLORUS
 - #E5F4E3
 - #003F91
 - #645244
-
-LINKS
-- https://www.coursera.org/articles/computer-science-vs-information-technology
-- https://www.coursera.org/articles/computer-science-vs-computer-engineering
-- https://www.w3schools.com/tags/default.asp
-- https://daringfireball.net/projects/markdown/syntax
-- https://core.myblueprint.ca/V5/Work/Occupation
-- https://www.collinsdictionary.com/dictionary/english/computing
-- https://www.w3schools.com/howto/howto_google_charts.asp
-- https://codepen.io/Muthukrishnan/pen/vGoZVz
-- https://www.jobbank.gc.ca/marketreport/requirements/22524/ca
-- https://www.jobbank.gc.ca/marketreport/requirements/5485/ca
-
-
-IMAGES
-- https://unsplash.com/photos/NIJuEQw0RKg
-- uni logos
-- https://unsplash.com/photos/cYyqhdbJ9TI
-- https://unsplash.com/photos/pfR18JNEMv8
-- https://unsplash.com/photos/pgdaAwf6IJg
-- https://www.flaticon.com/free-icon/robotic-hand_9626716
