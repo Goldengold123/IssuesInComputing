@@ -1,3 +1,9 @@
+/*
+ * Author: Grace Pu
+ * Date: April 25
+ * Description: JavaScript file for processing questionnaire responses to yield the results
+ */
+
 // js for survey submitting -> results
 
 function submit() {

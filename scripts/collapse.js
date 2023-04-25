@@ -1,4 +1,8 @@
-// js for collapsible
+/*
+ * Author: Grace Pu
+ * Date: April 25
+ * Description: JavaScript file for opening and closing the collapsible content
+ */
 
 var c = document.getElementsByClassName("collapse"); // get all elements with className collapse
 var i;
