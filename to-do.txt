@@ -4,7 +4,7 @@
 - intro: it
 - education: it
 - experience: it
-- highlighted job role: ce / it
+- highlighted job role: it
 - survey image
 
 - light/dark mode toggle?
