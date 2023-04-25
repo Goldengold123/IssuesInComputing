@@ -208,7 +208,7 @@ Description: HTML file for Computer Engineering site
         </div>
         <!-- bar chart on right, loaded with javascript below -->
         <div>
-          <div id="cechart" style="width: 1000px; height: 400px"></div>
+          <div id="cechart" style="width: 900px; height: 400px"></div>
         </div>
       </div>
     </div>
@@ -224,16 +224,15 @@ Description: HTML file for Computer Engineering site
       function ceChart() {
         var data = google.visualization.arrayToDataTable([
           ["Job Title", "Salary", { role: "style" }],
-          ["Computer Programmer", 93000, "#6665DD"],
-          ["Software Developer", 110140, "#6665DD"],
-          ["IT Consultant", 62943, "#6665DD"],
-          ["Forensic Computer Analyst", 74984, "#6665DD"],
+          ["Computer Programmer", 93000, "#BCB6FF"],
+          ["Software Developer", 110140, "#BCB6FF"],
+          ["IT Consultant", 62943, "#BCB6FF"],
+          ["Forensic Computer Analyst", 74984, "#BCB6FF"],
         ]);
 
         var options = {
-          backgroundColor: "#ecf7ff",
+          backgroundColor: "#e3f8e6",
           title: "Salaries of Computer Engineer Careers",
-          hAxis: { textStyle: { fontSize: "1px" } },
           chartArea: { width: "80%", height: "75%" },
           legend: { position: "none" },
         };

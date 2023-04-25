@@ -187,7 +187,7 @@ Description: HTML file for Information Technology site
         </div>
         <!-- bar chart on right, loaded with javascript below -->
         <div>
-          <div id="itChart" style="width: 1200px; height: 400px"></div>
+          <div id="itChart" style="width: 900px; height: 400px"></div>
         </div>
       </div>
     </div>
@@ -203,19 +203,18 @@ Description: HTML file for Information Technology site
       function itChart() {
         var data = google.visualization.arrayToDataTable([
           ["Job Title", "Salary", { role: "style" }],
-          ["Computer Technician", 45809, "#6665DD"],
-          ["Helpdesk Technician", 49743, "#6665DD"],
-          ["Cybersecurity Specialist", 89115, "#6665DD"],
-          ["System Administrator", 78645, "#6665DD"],
-          ["Database Administrator", 84082, "#6665DD"],
-          ["Network Administrator", 71311, "#6665DD"],
-          ["Cloud Engineer", 151884, "#6665DD"],
+          ["Computer Technician", 45809, "#BCB6FF"],
+          ["Helpdesk Technician", 49743, "#BCB6FF"],
+          ["Cybersecurity Specialist", 89115, "#BCB6FF"],
+          ["System Administrator", 78645, "#BCB6FF"],
+          ["Database Administrator", 84082, "#BCB6FF"],
+          ["Network Administrator", 71311, "#BCB6FF"],
+          ["Cloud Engineer", 151884, "#BCB6FF"],
         ]);
 
         var options = {
-          backgroundColor: "#ecf7ff",
+          backgroundColor: "#e3f8e6",
           title: "Salaries of Information Technology Careers",
-          hAxis: { textStyle: { fontSize: "1px" } },
           chartArea: { width: "80%", height: "75%" },
           legend: { position: "none" },
         };

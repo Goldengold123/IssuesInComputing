@@ -13,7 +13,7 @@
 
 /* Background colour, hide horizontal scroll, vertical scroll auto show as necessary */
 html {
-  background-color: #ecf7ff;
+  background-color: #e3f8e6;
   overflow-x: hidden;
   overflow-y: auto;
 }
@@ -49,7 +49,7 @@ body {
 h1 {
   font-size: 60px;
   font-weight: bold;
-  color: #ecf7ff;
+  color: #e3f8e6;
 }
 
 /* content class, margin, justify text */
@@ -82,7 +82,7 @@ iframe {
 /* change colour of text if it is linked to something */
 a {
   text-decoration: none;
-  color: #004d84;
+  color: #3f7cac;
 }
 
 /* underline links on hover */
@@ -131,7 +131,7 @@ a:hover {
 /* collapsible - change colour on hover */
 .active.hover,
 .collapse:hover {
-  background-color: #b9e2ff;
+  background-color: #aceab3;
 }
 
 /* collapsible content class */
@@ -176,4 +176,23 @@ th {
 
 td {
   padding-right: 20px;
+}
+
+/* questionnaire button formatting */
+button {
+  background-color: #aceab3;
+  font-weight: bold;
+  font-size: 20px;
+  border-width: 2px;
+  border-radius: 5px;
+  border-color: #90e39a;
+}
+
+button:hover {
+  background-color: #90e39a;
+  font-weight: bold;
+  font-size: 20px;
+  border-width: 2px;
+  border-radius: 5px;
+  border-color: #90e39a;
 }
