@@ -2,9 +2,9 @@
 - works cited properly
 
 - intro: it
-- education: ce/it
-- experience: ce/it
-- job title + outlook / salary: ce
+- education: it
+- experience: it
+- highlighted job role: ce / it
 - survey image
 
 - light/dark mode toggle?
@@ -15,3 +15,10 @@ COLORUS
 - #E5F4E3
 - #003F91
 - #645244
+
+
+
+#242038
+#CAC4CE
+#F7ECE1
+#6665DD

@@ -4,16 +4,17 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>Computer Engineer</title>
-    <link rel="icon" type="images/" href="/images/favicon.ico" />
+    <link rel="icon" type="images/" href="images/favicon.ico" />
     <link rel="stylesheet" href="styles/navbar.css" />
     <link rel="stylesheet" href="styles/style.css" />
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans" rel="stylesheet" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
   </head>
 
   <body>
     <nav class="nav">
-      <a href="/index.html">Careers in Computing</a>
+      <a href="index.html">Careers in Computing</a>
       <div class="right">
         <div class="dropdown">
           <button>Potential Careers</button>
@@ -27,9 +28,9 @@
         <a href="citations.html">Works Cited</a>
       </div>
     </nav>
-    <div class="header">
-      <div class="header-image" style="background-image: url('images/ce.jpg')">
-        <div class="header-text">Computer Engineer</div>
+    <div class="header" style="background-image: url('images/ce.jpg')">
+      <div class="header-text">
+        <h1>Computer Engineering</h1>
       </div>
     </div>
     <div class="content">
@@ -58,9 +59,9 @@
         </button>
         <div class="collapse-content">
           <p>
-            Since computer engineers are a subset of the broader engineer category, a career in this field requires a traditional 4-year university
-            bachelor's degree in computer engineering (there are a few exceptions but you will have more limited job opportunities without an
-            engineering degree). The degree can obtain this at some Canadian universities. They have an application process that involves some
+            Since computer engineers are a subset of the broader engineer category, a career in this field will likely require a traditional 4-year
+            university bachelor's degree in computer engineering (there are a few exceptions but you will have more limited job opportunities without
+            an engineering degree). The degree can obtain this at some Canadian universities. They have an application process that involves some
             combination of your high school marks and extra-curriculars (i.e. competitions, volunteering, jobs). Here are some links for more
             information:
           </p>
@@ -90,13 +91,14 @@
         </button>
         <div class="collapse-content">
           <p>
-            Virtually no one will hire you unless you have built tangible technology-based products and/or developed modular programs. However, this
-            does not mean you will be trapped in an endless cycle of "need experience / need job"! For the actually building part, it is difficult to
-            attain experience without external help (i.e. through a school). This is because you would need to buy or borrow a lot of the components
-            needed to make something, which can be very costly. If you do choose to self-learn these skills, a worthy investment would be a Raspberry
-            Pi or Arduino. Using these "mini-computers", you can make a lot of IoT products (Internet of Things). On the other hand, it is much more
-            accessible to self-learn the programming component, you can follow free online courses — all you need is access to a computer (visit the
-            public library or your school if you do not one). Here are some well-known sources for tutorials:
+            Without experience in building tangible technology-based products and/or developed modular programs, it is very difficult to get hired.
+            However, this does not mean you will be trapped in an endless cycle of "need experience / need job"! For the actually building part, it is
+            difficult to attain experience without external help (i.e. through a school). This is because you would need to buy or borrow a lot of the
+            components needed to make something, which can be very costly. If you do choose to self-learn these skills, check if a local institution
+            or library allows you to borrow those at a lower cost. If not, a worthy investment would be a Raspberry Pi or Arduino. Using these
+            "mini-computers", you can make a lot of IoT products (Internet of Things). On the other hand, it is much more accessible to self-learn the
+            programming component, you can follow free online courses — all you need is access to a computer (visit the public library or your school
+            if you do not one). Here are some well-known sources for tutorials:
           </p>
           <div class="flex">
             <div>
@@ -138,8 +140,32 @@
         </div>
       </div>
 
-      <h2>Potential Job Titles & Outlook / Salary</h2>
+      <h2>Software Engineer / Developer — Highlighted Job Role</h2>
+      <div class="flex">
+        <div><img src="images/se.jpg" alt="Software Engineer Photo" style="height: 375px" /></div>
+        <div>
+          <p>
+            Software Engineers / Developer work alongside a team to design and build applications used on a computer to address a need (or want) of a
+            group of people. The entire software development cycle (deisgn, building, testing, and maintenance) is typically incorporated and assigned
+            to members of the team. Working in this role will require you to be fluent in the programming language used (specific language depends on
+            what the exact product is). In addition, you must be knowledgeable in regards to the restrictions on technology (i.e. managing private
+            information).
+          </p>
+          <p>
+            Within this job role, there are two main subdivisions: back-end devleopers and front-end developers. Back-end developers focus on building
+            the basis of the actual application; this includes abiding by IT standards, documentation, and updating the technologies used. Front-end
+            developers focus on the user interface; this includes building the user interface and meeting with graphic designers.
+          </p>
+          <p>
+            Software Engineers have quite a high compensation compared to the national average. According to
+            <a href="https://www.glassdoor.ca/Salaries/software-engineer-salary-SRCH_KO0,17.htm">Glassdoor</a>, the average base pay (2023, Canada) is
+            $91,358 per year, with $10,927 in bonuses. Senior-level Software Engineers are paid, on average, $118,089 per year. Some companies you may
+            work for are Microsoft, Google, and Roblox.
+          </p>
+        </div>
+      </div>
 
+      <h2>Potential Job Titles & Salary<sup title="Salary is average USD base pay in US, data from Glassdoor, accessed on Coursera">*</sup></h2>
       <div class="flex">
         <div>
           <table>
@@ -172,5 +198,30 @@
       <p>Salary is average USD base pay in US, data from Glassdoor, accessed on Coursera.</p>
     </div>
     <script src="scripts/collapse.js"></script>
+    <script>
+      google.charts.load("current", { packages: ["corechart"] });
+      google.charts.setOnLoadCallback(ceChart);
+
+      function ceChart() {
+        var data = google.visualization.arrayToDataTable([
+          ["Job Title", "Salary", { role: "style" }],
+          ["Computer Programmer", 93000, "#6665DD"],
+          ["Software Developer", 110140, "#6665DD"],
+          ["IT Consultant", 62943, "#6665DD"],
+          ["Forensic Computer Analyst", 74984, "#6665DD"],
+        ]);
+
+        var options = {
+          backgroundColor: "#E5F4E3",
+          title: "Salaries of Computer Engineer Careers",
+          hAxis: { textStyle: { fontSize: "1px" } },
+          chartArea: { width: "80%", height: "75%" },
+          legend: { position: "none" },
+        };
+
+        var chart = new google.visualization.ColumnChart(document.getElementById("cechart"));
+        chart.draw(data, options);
+      }
+    </script>
   </body>
 </html>

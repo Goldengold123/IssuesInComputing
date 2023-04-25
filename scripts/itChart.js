@@ -1,16 +1,16 @@
 google.charts.load("current", { packages: ["corechart"] });
-google.charts.setOnLoadCallback(drawChart);
+google.charts.setOnLoadCallback(itchart);
 
 function itChart() {
   var data = google.visualization.arrayToDataTable([
     ["Job Title", "Salary", { role: "style" }],
-    ["Computer Technician", 45809, "#5DA9E9"],
-    ["Helpdesk Technician", 49743, "#5DA9E9"],
-    ["Cybersecurity Specialist", 89115, "#5DA9E9"],
-    ["System Administrator", 78645, "#5DA9E9"],
-    ["Database Administrator", 84082, "#5DA9E9"],
-    ["Network Administrator", 71311, "#5DA9E9"],
-    ["Cloud Engineer", 151884, "#5DA9E9"],
+    ["Computer Technician", 45809, "#6665DD"],
+    ["Helpdesk Technician", 49743, "#6665DD"],
+    ["Cybersecurity Specialist", 89115, "#6665DD"],
+    ["System Administrator", 78645, "#6665DD"],
+    ["Database Administrator", 84082, "#6665DD"],
+    ["Network Administrator", 71311, "#6665DD"],
+    ["Cloud Engineer", 151884, "#6665DD"],
   ]);
 
   var options = {
@@ -21,6 +21,6 @@ function itChart() {
     legend: { position: "none" },
   };
 
-  var chart = new google.visualization.ColumnChart(document.getElementById("colchart"));
+  var chart = new google.visualization.ColumnChart(document.getElementById("itchart"));
   chart.draw(data, options);
 }
