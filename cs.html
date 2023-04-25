@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="eng-US">
+  <!-- head: link website icon, css, font -->
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
@@ -13,6 +14,7 @@
   </head>
 
   <body>
+    <!-- navigation bar, sticks to top of screen -->
     <nav class="nav">
       <a href="index.html">Careers in Computing</a>
       <div class="right">
@@ -28,12 +30,16 @@
         <a href="citations.html">Works Cited</a>
       </div>
     </nav>
+
+    <!-- header, image with text -->
     <div class="header" style="background-image: url('images/cs.jpg')">
       <div class="header-text">
         <h1>Computer Science</h1>
       </div>
     </div>
+
     <div class="content">
+      <!-- introduction -->
       <p>Lately, this term has been thrown around a lot, often when a different term should be used.</p>
       <div class="defn">
         <term>com·put·er sci·ence</term>
@@ -42,14 +48,19 @@
       </div>
       <p>Basically, designing and creating efficient computer algorithms.</p>
 
+      <!-- youtube video -->
       <center>
         <iframe src="https://www.youtube.com/embed/Tzl0ELY_TiM" allow="fullscreen;"> </iframe>
       </center>
+
       <p>
-        Some of the skills you might need include programming, game development, webpage development, data analysis, and algorithms. More advanced
-        jobs will require studying additional topics such as artificial intelligence, cybersecurity, and networks.
+        Some of the skills you might need include programming, game development, webpage development, data analysis, and algorithms. More advanced jobs will require studying additional topics such as artificial intelligence, cybersecurity, and
+        networks.
       </p>
+
+      <!-- requirements -->
       <h2>Requirements</h2>
+      <!-- education, collapsible content -->
       <div title="4+ year Bachelor's degree in Computer Science (or similar majors)">
         <button type="button" class="collapse">
           <i class="material-icons">school</i>
@@ -57,10 +68,11 @@
         </button>
         <div class="collapse-content">
           <p>
-            A lot of jobs within the computer sceince field require at least a 4-year university bachelor's degree in computer. You can obtain this at
-            most Canadian universities. They have an application process that involves some combination of your high school marks and
-            extra-curriculars (i.e. competitions, volunteering, jobs). Here are some links for more information:
+            A lot of jobs within the computer sceince field require at least a 4-year university bachelor's degree in computer. You can obtain this at most Canadian universities. They have an application process that involves some combination of your
+            high school marks and extra-curriculars (i.e. competitions, volunteering, jobs). Here are some links for more information:
           </p>
+
+          <!-- flex container, divide screen into 2 sides (bullet point links on left, images on right) -->
           <div class="flex">
             <div>
               <ul>
@@ -77,14 +89,16 @@
             <div><img src="images/uoft.png" alt="University of Toronto Logo" style="height: 125px" /></div>
             <div><img src="images/uwaterloo.png" alt="University of Waterloo Logo" style="height: 125px" /></div>
           </div>
+
           <p>This is where you will learn the skills you need stated above.</p>
           <p>
-            However, such a degree is not necessarily required. If you have enough practical experience (see next section), official certifications,
-            participated in hackathons, and/or followed along bootcamps, submiting a resume with an outline of your experience in computer science can
-            get you employed — without the costly bachelor's degree!
+            However, such a degree is not necessarily required. If you have enough practical experience (see next section), official certifications, participated in hackathons, and/or followed along bootcamps, submiting a resume with an outline of
+            your experience in computer science can get you employed — without the costly bachelor's degree!
           </p>
         </div>
       </div>
+
+      <!-- experience, collapsible content -->
       <div title="Programming experience">
         <button type="button" class="collapse">
           <i class="material-icons">laptop_windows</i>
@@ -92,12 +106,12 @@
         </button>
         <div class="collapse-content">
           <p>
-            Virtually no one will hire you unless you have developed modular programs. However, this does not mean you will be trapped in an endless
-            cycle of "need experience / need job"! The best part about careers in computing, in particular those involved with the software
-            development aspect, is that one can build their own programs without actually being part of a company. There are countless online courses
-            to follow along to develop your programming skillset — all you need is access to a computer (visit the public library or your school if
-            you do not have access). Here are some well-known sources for tutorials:
+            Virtually no one will hire you unless you have developed modular programs. However, this does not mean you will be trapped in an endless cycle of "need experience / need job"! The best part about careers in computing, in particular those
+            involved with the software development aspect, is that one can build their own programs without actually being part of a company. There are countless online courses to follow along to develop your programming skillset — all you need is
+            access to a computer (visit the public library or your school if you do not have access). Here are some well-known sources for tutorials:
           </p>
+
+          <!-- flex container, divide screen into 2 sides (bullet point links on left, images on right) -->
           <div class="flex">
             <div>
               <ul>
@@ -113,7 +127,10 @@
             <div><img src="images/udemy.png" alt="Udemy Logo" style="height: 125px" /></div>
             <div><img src="images/edX.png" alt="edX Logo" style="height: 125px" /></div>
           </div>
+
           <p>Some keywords on skills to get you started are</p>
+
+          <!-- flex container, divide screen into 2 sides (bullet point links on left, images on right) -->
           <div class="flex">
             <div>
               <ul>
@@ -130,48 +147,42 @@
             <div><img src="images/js.png" alt="JavaScript Logo" style="height: 125px" /></div>
             <div><img src="images/github.png" alt="GitHub Logo" style="height: 125px" /></div>
           </div>
-          <p>
-            Another way to get experience is through a cooperative education program in university or high school. This allows you to spend a couple
-            of months at a company to gain work experience.
-          </p>
+
+          <p>Another way to get experience is through a cooperative education program in university or high school. This allows you to spend a couple of months at a company to gain work experience.</p>
         </div>
       </div>
 
+      <!-- highlighted job role -->
       <h2>Data Scientist / Analyst — Highlighted Job Role</h2>
+
+      <!-- flex container, divide screen into 2 sides (images on left, description on right) -->
       <div class="flex">
         <div><img src="images/datasci.jpg" alt="Software Engineer Photo" style="height: 400px" /></div>
         <div>
           <p>
-            Data Scientists and Analysts dissect data sets to help provide understanding of trends and the causes of it by finding patterns. Using the
-            information, algorithms and models are created to predict future outcomes, which helps the business make stronger decisions with regards
-            to its products and services. This process may involve applying machine learning principles, managing the data wtih SQL, or a combination
-            with Python. To automate and speed up this process, experience in deep learning and the respective pattern recognition techniques may be
-            required. Working in this role will require strong analytical and problem-solving abilities.
+            Data Scientists and Analysts dissect data sets to help provide understanding of trends and the causes of it by finding patterns. Using the information, algorithms and models are created to predict future outcomes, which helps the business
+            make stronger decisions with regards to its products and services. This process may involve applying machine learning principles, managing the data wtih SQL, or a combination with Python. To automate and speed up this process, experience
+            in deep learning and the respective pattern recognition techniques may be required. Working in this role will require strong analytical and problem-solving abilities.
           </p>
           <p>
-            However, there is a slight difference in regards to what specifically data scientists do compared to data analysts. Data scientists tend
-            to ask questions with regards to the data, during and after their analysis of the trends. Data analysts usually already have a question in
-            mind, an objective as to what they want to conclude using the data sets. They also work together: data scientists may integrate several
-            sets of data into a database for data analysts. For both of these roles, there may be subcategories that details a more specific title
-            (i.e. business intelligence analyst, medical analyst).
+            However, there is a slight difference in regards to what specifically data scientists do compared to data analysts. Data scientists tend to ask questions with regards to the data, during and after their analysis of the trends. Data
+            analysts usually already have a question in mind, an objective as to what they want to conclude using the data sets. They also work together: data scientists may integrate several sets of data into a database for data analysts. For both
+            of these roles, there may be subcategories that details a more specific title (i.e. business intelligence analyst, medical analyst).
           </p>
           <p>
             Data Scientists have quite a high compensation compared to the national average. According to
-            <a href="https://www.glassdoor.ca/Salaries/data-scientist-salary-SRCH_KO0,14.htm">Glassdoor</a>, the average base pay (2023, Canada) is
-            $91,431 per year, with $9,985 in bonuses. Lead Data Scientists are paid, on average, $125,091 per year. On the other hand, for Data
-            Analysts, according to <a href="https://www.glassdoor.ca/Salaries/data-analyst-salary-SRCH_KO0,12.htm">Glassdoor</a>, the average base pay
-            (2023, Canada) is $65,041 per year, with $4,797 in bonuses. Senior Data Analysts are paid, on average, $88,020 per year.
+            <a href="https://www.glassdoor.ca/Salaries/data-scientist-salary-SRCH_KO0,14.htm">Glassdoor</a>, the average base pay (2023, Canada) is $91,431 per year, with $9,985 in bonuses. Lead Data Scientists are paid, on average, $125,091 per
+            year. On the other hand, for Data Analysts, according to <a href="https://www.glassdoor.ca/Salaries/data-analyst-salary-SRCH_KO0,12.htm">Glassdoor</a>, the average base pay (2023, Canada) is $65,041 per year, with $4,797 in bonuses.
+            Senior Data Analysts are paid, on average, $88,020 per year.
           </p>
         </div>
       </div>
 
-      <h2>
-        Other Potential Job Titles & Salary (US)<sup
-          title="Salary is average USD base pay in US (typically higher than Canada), data from Glassdoor, accessed on Coursera"
-          >*</sup
-        >
-      </h2>
+      <!-- other job titles and salaries -->
+      <h2>Other Potential Job Titles & Salary (US)<sup title="Salary is average USD base pay in US (typically higher than Canada), data from Glassdoor, accessed on Coursera">*</sup></h2>
+      <!-- flex container, divide screen into 2 sides -->
       <div class="flex">
+        <!-- data table on left -->
         <div>
           <table>
             <tr>
@@ -208,12 +219,17 @@
             </tr>
           </table>
         </div>
+        <!-- bar chart on right, loaded with javascript below -->
         <div>
           <div id="cschart" style="width: 1000px; height: 400px"></div>
         </div>
       </div>
     </div>
+
+    <!-- load javascript for collapsible content -->
     <script src="scripts/collapse.js"></script>
+
+    <!-- javascript for salary bar chart, using google charts -->
     <script>
       google.charts.load("current", { packages: ["corechart"] });
       google.charts.setOnLoadCallback(csChart);

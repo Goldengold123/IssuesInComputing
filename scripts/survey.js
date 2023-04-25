@@ -1,8 +1,14 @@
+// js for survey submitting -> results
+
 function submit() {
+  // variable declaration
+
+  // scores for each career field
   var cs = 0;
   var ce = 0;
   var it = 0;
 
+  // response for each question
   var q1 = document.querySelector('input[name="q1"]:checked').value;
   var q2 = document.querySelector('input[name="q2"]:checked').value;
   var q3 = document.querySelector('input[name="q3"]:checked').value;
@@ -13,6 +19,7 @@ function submit() {
   var q8 = document.querySelector('input[name="q8"]:checked').value;
   var q9 = document.querySelector('input[name="q9"]:checked').value;
 
+  // assign points based on responses
   if (q1 == "csce") {
     cs++;
     ce++;
@@ -63,7 +70,9 @@ function submit() {
   else if (q9 == "it") it++;
   else ce++;
 
-  document.getElementById("csresult").innerHTML = "CS: " + cs;
-  document.getElementById("ceresult").innerHTML = "CE: " + ce;
-  document.getElementById("itresult").innerHTML = "IT: " + it;
+  // display results
+  document.getElementById("resultintro").innerHTML = "Here are your results (number of points is number of responses that are compatible with that career field).";
+  document.getElementById("csresult").innerHTML = "Computer Science: " + cs;
+  document.getElementById("ceresult").innerHTML = "Computer Engineering: " + ce;
+  document.getElementById("itresult").innerHTML = "Information Technology: " + it;
 }

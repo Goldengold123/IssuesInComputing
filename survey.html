@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="eng-US">
+  <!-- head: link website icon, css, font -->
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
@@ -11,6 +12,7 @@
   </head>
 
   <body>
+    <!-- navigation bar, sticks to top of screen -->
     <nav class="nav">
       <a href="index.html">Careers in Computing</a>
       <div class="right">
@@ -26,56 +28,60 @@
         <a href="citations.html">Works Cited</a>
       </div>
     </nav>
+
+    <!-- header, image with text -->
     <div class="header" style="background-image: url('images/survey.jpg')">
       <div class="header-text">
         <h1>Survey</h1>
       </div>
     </div>
     <div class="content">
+      <h2>Use the questionnaire below to determine which career field best suits your interests and conditions!</h2>
+      <!-- survey questions -->
       <form>
-        <p>Would you like to pursue a 4-year university bachelor's degree?</p>
+        <h3>Would you like to pursue a 4-year university bachelor's degree?</h3>
         <input type="radio" id="yes" name="q1" value="csce" />
         <label for="yes">Yes</label><br />
         <input type="radio" id="no" name="q1" value="it" />
         <label for="no">No</label>
-        <p>Which of the following would you prefer to study on an advanced level?</p>
+        <h3>Which of the following would you prefer to study on an advanced level?</h3>
         <input type="radio" id="mathematics" name="q2" value="cs" />
         <label for="mathematics">Mathematics</label><br />
         <input type="radio" id="physicschem" name="q2" value="ce" />
         <label for="physicschem">Physics and/or Chemistry</label><br />
         <input type="radio" id="none" name="q2" value="it" />
         <label for="none">None of the above</label>
-        <p>Do you want to learn about the concepts (i.e. data structures, algorithms) behind the efficiency of computers and its programs?</p>
+        <h3>Do you want to learn about the concepts (i.e. data structures, algorithms) behind the efficiency of computers and its programs?</h3>
         <input type="radio" id="yes" name="q3" value="cs" />
         <label for="yes">Yes</label><br />
         <input type="radio" id="no" name="q3" value="ceit" />
         <label for="no">No</label>
-        <p>Do you want to have a career involved with the development of Artificial Intelligence?</p>
+        <h3>Do you want to have a career involved with the development of Artificial Intelligence?</h3>
         <input type="radio" id="yes" name="q4" value="cs" />
         <label for="yes">Yes</label><br />
         <input type="radio" id="no" name="q4" value="ceit" />
         <label for="no">No</label>
-        <p>Are you interested in aspects of electrical engineering?</p>
+        <h3>Are you interested in aspects of electrical engineering?</h3>
         <input type="radio" id="yes" name="q5" value="ce" />
         <label for="yes">Yes</label><br />
         <input type="radio" id="no" name="q5" value="csit" />
         <label for="no">No</label>
-        <p>Are you intersted in learning how systems work and the networking behind it?</p>
+        <h3>Are you intersted in learning how systems work and the networking behind it?</h3>
         <input type="radio" id="yes" name="q6" value="it" />
         <label for="yes">Yes</label><br />
         <input type="radio" id="no" name="q6" value="csce" />
         <label for="no">No</label>
-        <p>Are you intersted in learning about cybersecurity?</p>
+        <h3>Are you intersted in learning about cybersecurity?</h3>
         <input type="radio" id="yes" name="q7" value="csit" />
         <label for="yes">Yes</label><br />
         <input type="radio" id="no" name="q7" value="ce" />
         <label for="no">No</label>
-        <p>Would you prefer learning about more theory or applications of your skills?</p>
+        <h3>Would you prefer learning about more theory or applications of your skills?</h3>
         <input type="radio" id="theory" name="q8" value="cs" />
         <label for="theory">Theory</label><br />
         <input type="radio" id="application" name="q8" value="ceit" />
         <label for="application">Application</label>
-        <p>Would you rather work with software or hardware?</p>
+        <h3>Would you rather work with software or hardware?</h3>
         <input type="radio" id="software" name="q9" value="cs" />
         <label for="software">Pure software</label><br />
         <input type="radio" id="softwarehardware" name="q9" value="it" />
@@ -85,9 +91,10 @@
       </form>
       <br />
       <button onclick="submit()">View results!</button>
-      <h2 id="csresult"></h2>
-      <h2 id="ceresult"></h2>
-      <h2 id="itresult"></h2>
+      <h2 id="resultintro"></h2>
+      <h3 id="csresult"></h3>
+      <h3 id="ceresult"></h3>
+      <h3 id="itresult"></h3>
     </div>
     <script src="scripts/survey.js"></script>
   </body>

@@ -1,3 +1,6 @@
+/* navigation bar css file */
+
+/* nav class */
 .nav {
   position: fixed;
   left: 0;
@@ -10,10 +13,12 @@
   z-index: 999;
 }
 
+/* right side of nav bar */
 .right {
   float: right;
 }
 
+/* links on nav bar, text formatting */
 .nav a {
   padding: 20px 20px;
   text-align: center;
@@ -24,16 +29,19 @@
   font-weight: bold;
 }
 
+/* underline text on hover */
 .nav a:hover {
   color: #080708;
   text-decoration: underline;
 }
 
+/* dropdown for navbar */
 .dropdown {
   position: relative;
   display: inline-block;
 }
 
+/* dropdown button formatting */
 .dropdown button {
   text-align: right;
   display: block;
@@ -50,6 +58,7 @@
   margin-bottom: 15px;
 }
 
+/* dropdown content formatting */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -59,6 +68,7 @@
   z-index: 999;
 }
 
+/* dropdown content text formatting */
 .dropdown-content a {
   display: block;
   padding: 20px 20px;
@@ -68,10 +78,12 @@
   text-decoration: none;
 }
 
+/* dropdown displays on hover */
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
+/* underline dropdown button on hover */
 .dropdown button:hover {
   text-decoration: underline;
   text-decoration-color: #080708;

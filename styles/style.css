@@ -1,22 +1,27 @@
+/* main css file */
+
+/* Font, default font size, font colour */
 * {
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
   color: #080708;
-  /* color: #453823; */
 }
 
+/* Background colour, hide horizontal scroll, vertical scroll auto show as necessary */
 html {
   background-color: #ecf7ff;
   overflow-x: hidden;
   overflow-y: auto;
 }
 
+/* body margin, padding, z-index (layering) */
 body {
   margin: 0;
   padding: 0;
   z-index: 5;
 }
 
+/* header image */
 .header {
   margin-top: 45px;
   position: relative;
@@ -24,9 +29,9 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  filter: brightness(50%);
 }
 
+/* header text class */
 .header-text {
   display: flex;
   flex-direction: column;
@@ -36,47 +41,52 @@ body {
   height: 100%;
 }
 
+/* header 1 font size, bold */
 h1 {
   font-size: 60px;
   font-weight: bold;
   color: #ecf7ff;
 }
 
+/* content class, margin, justify text */
 .content {
   margin: 20px;
   text-align: justify;
 }
 
+/* paragraph - justify */
 p {
   text-align: justify;
 }
 
+/* header 2 font size, bold, padding */
 h2 {
   font-size: 30px;
   padding-top: 30px;
   font-weight: bold;
 }
 
+/* iframe (youtube videos) dimensions, auto margins */
 iframe {
   width: 640px;
   height: 360px;
   border: "none";
+  margin-left: auto;
+  margin-right: auto;
 }
 
+/* change colour of text if it is linked to something */
 a {
   text-decoration: none;
   color: #004d84;
 }
 
+/* underline links on hover */
 a:hover {
   text-decoration: underline;
 }
 
-iframe {
-  margin-left: auto;
-  margin-right: auto;
-}
-
+/* class for definitions */
 .defn {
   margin: auto;
   width: fit-content;
@@ -97,6 +107,7 @@ iframe {
   font-size: 14px;
 }
 
+/* collapsible */
 .collapse,
 .active {
   cursor: pointer;
@@ -108,15 +119,18 @@ iframe {
   outline: none;
 }
 
+/* collapsible - icons font size */
 .collapse i {
   font-size: 14px;
 }
 
+/* collapsible - change colour on hover */
 .active.hover,
 .collapse:hover {
   background-color: #b9e2ff;
 }
 
+/* collapsible content class */
 .collapse-content {
   padding: 10px;
   text-align: left;
@@ -124,25 +138,30 @@ iframe {
   display: none;
 }
 
+/* collapsible content margins */
 .collapse-content p,
 li {
   margin: 5px;
 }
 
+/* flex container (show elements side by side) */
 .flex {
   display: flex;
   align-items: center;
 }
 
+/* unique left margin for first child of flex container so it stays to the left */
 .flex div:first-child {
   margin-left: 10px;
 }
 
+/* if not first child of flex container, auto margins (evenly divide) */
 .flex div {
   padding-right: 30px;
   margin-left: auto;
 }
 
+/* table formatting */
 tr {
   text-align: left;
 }
